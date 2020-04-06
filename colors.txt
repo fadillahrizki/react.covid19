@@ -1,3 +1,0 @@
-Primary - #FF8177
-Secondary - #5E5558
-Red - #F22D2D
