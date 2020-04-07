@@ -1,0 +1,2 @@
+body{margin:0;font-family:"Agency FB";-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}code{font-family:source-code-pro,Menlo,Monaco,Consolas,"Courier New",monospace}#mouse{-webkit-animation:mouse 2s ease infinite;animation:mouse 2s ease infinite}@-webkit-keyframes mouse{0%{transform:translateY(-50px)}to{transform:translateY(0)}}@keyframes mouse{0%{transform:translateY(-50px)}to{transform:translateY(0)}}body{overflow-x:hidden}
+/*# sourceMappingURL=main.20a6b6bb.chunk.css.map */
