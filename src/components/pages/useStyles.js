@@ -196,12 +196,13 @@ const useStyles = makeStyles(theme=> {
             
         },
         avatar:{
-            width:'300px',
-            height:'300px',
+            width:'300px !important',
+            height:'300px !important',
             margin:'auto',
+            borderRadius:'50%',
             [theme.breakpoints.down('sm')]:{
-                width:'200px',
-                height:'200px'
+                width:'200px !important',
+                height:'200px !important'
             }
         },
         name:{

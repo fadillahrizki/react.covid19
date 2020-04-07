@@ -1,6 +1,5 @@
-import React,{useEffect} from 'react'
-import {connect,useDispatch} from 'react-redux'
-import {Global,Local} from '../../redux/actions/Get'
+import React from 'react'
+import {connect} from 'react-redux'
 import Header from '../layouts/Header'
 import GlobalSection from '../templates/GlobalSection'
 import LocalSection from '../templates/LocalSection'
@@ -9,12 +8,6 @@ import useStyles from './useStyles'
 
 const Home = props => {
     const classes = useStyles()
-    const dispatch = useDispatch()
-
-    useEffect(()=>{
-        dispatch(Global())
-        dispatch(Local())
-    },[dispatch])
 
     return(
         <>
