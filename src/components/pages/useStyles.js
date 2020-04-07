@@ -187,6 +187,7 @@ const useStyles = makeStyles(theme=> {
         content:{
             fontSize:'30px',
             fontFamily:'Agency FB',
+            textAlign:'justify',
             [theme.breakpoints.down('sm')]:{
                 fontSize:'20px'
             }
