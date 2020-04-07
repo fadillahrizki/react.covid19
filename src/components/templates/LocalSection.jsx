@@ -6,7 +6,7 @@ const GlobalSection = ({classes,local}) => {
         <Container maxWidth="lg">
                 <Typography className={classes.textIndo}>KASUS DI INDONESIA</Typography>
                 <Grid container spacing={3} className={classes.content}>
-                    <Grid item md={3} sm={6}>
+                    <Grid item md={3} xs={6}>
                         <Card className={classes.cardRed}>
                             <CardContent>
                                 <Typography className={classes.cardTextWhite}>{local.cases}</Typography>
@@ -14,7 +14,7 @@ const GlobalSection = ({classes,local}) => {
                             </CardContent>
                         </Card>
                     </Grid>
-                    <Grid item md={3} sm={6}>
+                    <Grid item md={3} xs={6}>
                         <Card className={classes.cardRed}>
                             <CardContent>
                                 <Typography className={classes.cardTextWhite}>{local.todayCases}</Typography>
@@ -22,7 +22,7 @@ const GlobalSection = ({classes,local}) => {
                             </CardContent>
                         </Card>
                     </Grid>
-                    <Grid item md={3} sm={6}>
+                    <Grid item md={3} xs={6}>
                         <Card className={classes.cardRed}>
                             <CardContent>
                                 <Typography className={classes.cardTextWhite}>{local.recovered}</Typography>
@@ -30,7 +30,7 @@ const GlobalSection = ({classes,local}) => {
                             </CardContent>
                         </Card>
                     </Grid>
-                    <Grid item md={3} sm={6}>
+                    <Grid item md={3} xs={6}>
                         <Card className={classes.cardRed}>
                             <CardContent>
                                 <Typography className={classes.cardTextWhite}>{local.active}</Typography>
@@ -38,7 +38,7 @@ const GlobalSection = ({classes,local}) => {
                             </CardContent>
                         </Card>
                     </Grid>
-                    <Grid item md={3} sm={6}>
+                    <Grid item md={3} xs={6}>
                         <Card className={classes.cardWhite}>
                             <CardContent>
                                 <Typography className={classes.cardTextRed}>{local.critical}</Typography>
@@ -46,7 +46,7 @@ const GlobalSection = ({classes,local}) => {
                             </CardContent>
                         </Card>
                     </Grid>
-                    <Grid item md={3} sm={6}>
+                    <Grid item md={3} xs={6}>
                         <Card className={classes.cardWhite}>
                             <CardContent>
                                 <Typography className={classes.cardTextRed}>{local.deaths}</Typography>
@@ -54,7 +54,7 @@ const GlobalSection = ({classes,local}) => {
                             </CardContent>
                         </Card>
                     </Grid>
-                    <Grid item md={3} sm={6}>
+                    <Grid item md={3} xs={6}>
                         <Card className={classes.cardWhite}>
                             <CardContent>
                                 <Typography className={classes.cardTextRed}>{local.todayDeaths}</Typography>
@@ -62,7 +62,7 @@ const GlobalSection = ({classes,local}) => {
                             </CardContent>
                         </Card>
                     </Grid>
-                    <Grid item md={3} sm={6}>
+                    <Grid item md={3} xs={6}>
                         <Card className={classes.cardWhite}>
                             <CardContent>
                                 <Typography className={classes.cardTextRed}>{local.deathsPerOneMillion}</Typography>
