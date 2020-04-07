@@ -199,30 +199,43 @@ const useStyles = makeStyles(theme=> {
             width:'300px',
             height:'300px',
             margin:'auto',
-        },
-        contact:{
-            padding:theme.spacing(5),
-            textAlign:'center',
+            [theme.breakpoints.down('sm')]:{
+                width:'200px',
+                height:'200px'
+            }
         },
         name:{
             fontSize:'50px',
             fontFamily:'Agency FB',
             textTransform:'uppercase',
             color:color().primary,
-            margin:'30px 0'
+            [theme.breakpoints.down('sm')]:{
+                fontSize:'30px'
+            }
         },
         email:{
             fontSize:'30px',
             fontFamily:'Agency FB',
             textTransform:'uppercase',
             color:color().primary,
+            [theme.breakpoints.down('sm')]:{
+                fontSize:'16px'
+            }
         },
         phone:{
             fontSize:'30px',
             fontFamily:'Agency FB',
             textTransform:'uppercase',
             color:color().primary,
+            [theme.breakpoints.down('sm')]:{
+                fontSize:'16px'
+            }
         },
+        variant:{
+            [theme.breakpoints.down('sm')]:{
+                width:'50px',
+            }
+        }
     }
 })
 
