@@ -7,6 +7,12 @@ import iconmouse from '../../assets/iconmouse.svg'
 
 const Header = ({classes}) => {
     const location = useLocation()
+    const more = () => {
+        window.scrollTo({
+            top: window.innerHeight,
+            behavior: 'smooth',
+        })
+    }
     return(
         <Box className={classes.root}>
                 <Container maxWidth="lg">
@@ -23,7 +29,7 @@ const Header = ({classes}) => {
                                                     <line x2="200" className={classes.line}/>
                                                 </svg>
                                             </Hidden>
-                                            <Button variant="outlined" className={classes.btn} size="large">Pelajari Lebih Lanjut</Button>
+                                            <Button variant="outlined" className={classes.btn} size="large" onClick={more}>Pelajari Lebih Lanjut</Button>
                                         </Box>
                                     </Box>
                                 ) : ''

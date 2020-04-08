@@ -5,7 +5,7 @@ const GlobalSection = ({classes,local}) => {
     return (
         <Container maxWidth="lg">
                 <Typography className={classes.textIndo}>KASUS DI INDONESIA</Typography>
-                <Grid container spacing={3} className={classes.content}>
+                <Grid container spacing={3} className={classes.content} style={{paddingBottom:'3em'}}>
                     <Grid item md={3} xs={6}>
                         <Card className={classes.cardRed}>
                             <CardContent>

@@ -37,6 +37,11 @@ const useStyles = makeStyles(theme=> {
             alignItems:'center',
             justifyContent:'center'
         },
+        justifySB:{
+            display:'flex',
+            alignItems:'center',
+            justifyContent:'space-between'
+        },
         img:{
             width:'400px',
             height:'400px',
@@ -81,6 +86,17 @@ const useStyles = makeStyles(theme=> {
         text:{
             fontSize:'50px',
             color:color().primary,
+            margin:'auto',
+            textAlign:'center',
+            padding:theme.spacing(3),
+            fontFamily:'Agency FB',
+            [theme.breakpoints.down('sm')]:{
+                fontSize:'30px'
+            }
+        },
+        textSecondary:{
+            fontSize:'50px',
+            color:color().secondary,
             margin:'auto',
             textAlign:'center',
             padding:theme.spacing(3),
@@ -236,6 +252,45 @@ const useStyles = makeStyles(theme=> {
         variant:{
             [theme.breakpoints.down('sm')]:{
                 width:'50px',
+            }
+        },
+        hindari:{
+            width:'100%',
+            background:color().primary
+        },
+        titleHindari:{
+            fontSize:'30px',
+            fontFamily:'Agency FB',
+            textTransform:'uppercase',
+            color:color().secondary,
+            [theme.breakpoints.down('sm')]:{
+                fontSize:'16px',
+            }
+        },
+        gejala:{
+            width:'100%',
+            background:color().secondary
+        },
+        titleGejala:{
+            fontSize:'30px',
+            fontFamily:'Agency FB',
+            textTransform:'uppercase',
+            color:color().primary,
+            [theme.breakpoints.down('sm')]:{
+                fontSize:'16px',
+            }
+        },
+        lawan:{
+            width:'100%',
+            background:color().red
+        },
+        titleLawan:{
+            fontSize:'30px',
+            fontFamily:'Agency FB',
+            textTransform:'uppercase',
+            color:"#fff",
+            [theme.breakpoints.down('sm')]:{
+                fontSize:'16px',
             }
         }
     }
