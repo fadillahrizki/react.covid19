@@ -12,7 +12,7 @@ const FaqSection = ({datas,classes,color}) => {
                                     return(
                                         <Box key={ind} className={classes.boxWhite}>
                                             <Container maxWidth="lg">
-                                                <Typography className={classes.text}>{d.q}</Typography>
+                                                <Typography className={classes.text} style={{color:color().dark}}>{d.q}</Typography>
                                                 <Typography className={classes.content} >{d.a}</Typography>
                                                 <br/>
                                                 <Typography className={classes.from}>

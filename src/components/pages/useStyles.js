@@ -187,7 +187,7 @@ const useStyles = makeStyles(theme=> {
             textAlign:'center'
         },
         boxWhite:{
-            color:color().primary,
+            color:color().dark,
             paddingBottom:theme.spacing(5)
         },
         boxPrimary:{
@@ -212,10 +212,10 @@ const useStyles = makeStyles(theme=> {
             fontWeight:"bold",  
         },
         avatar:{
-            width:'300px !important',
+            
             height:'300px !important',
             margin:'auto',
-            borderRadius:'50%',
+            borderRadius:'50px',
             [theme.breakpoints.down('sm')]:{
                 width:'200px !important',
                 height:'200px !important'

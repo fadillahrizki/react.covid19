@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link,useLocation} from 'react-router-dom'
-import covid19 from '../../assets/covid19.png'
+import covid19 from '../../assets/covid19.svg'
 import {Container,Box,Grid,Button,Typography,Hidden} from '@material-ui/core'
 import iconmouse from '../../assets/iconmouse.svg'
 
