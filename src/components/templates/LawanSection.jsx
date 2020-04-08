@@ -10,7 +10,7 @@ const LawanSection = ({classes}) =>{
             <Box className={classes.lawan}>
                 <Container maxWidth='lg'>
                     <Box>
-                        <Typography className={classes.text} style={{color:"#fff"}}>LAWAN COVID 19</Typography>
+                        <Typography className={classes.text} style={{color:"#fff"}}>AYO LAWAN COVID 19</Typography>
                     </Box>
                     <Grid container className={classes.justifySB} style={{paddingBottom:'2em'}} spacing={3}>
                         <Grid item xs={3} sm={2}>

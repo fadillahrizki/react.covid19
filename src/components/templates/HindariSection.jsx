@@ -10,7 +10,7 @@ const HindariSection = ({classes}) =>{
             <Box className={classes.hindari}>
                 <Container maxWidth='lg'>
                     <Box>
-                        <Typography className={classes.textSecondary} >AYO HINDARI COVID 19</Typography>
+                        <Typography className={classes.textSecondary} style={{color:"#fff"}}>AYO HINDARI COVID 19</Typography>
                     </Box>
                     <Grid container className={classes.justifySB} style={{paddingBottom:'2em'}} spacing={3}>
                         <Grid item xs={3} sm={2}>

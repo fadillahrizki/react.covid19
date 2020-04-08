@@ -261,7 +261,7 @@ const useStyles = makeStyles(theme=> {
             fontSize:'30px',
             fontFamily:'Agency FB',
             textTransform:'uppercase',
-            color:color().secondary,
+            color:"#fff",
             [theme.breakpoints.down('sm')]:{
                 fontSize:'16px',
             }
