@@ -212,7 +212,6 @@ const useStyles = makeStyles(theme=> {
             fontWeight:"bold",  
         },
         avatar:{
-            
             height:'300px !important',
             margin:'auto',
             borderRadius:'50px',
