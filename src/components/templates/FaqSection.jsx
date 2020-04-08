@@ -12,8 +12,9 @@ const FaqSection = ({datas,classes,color}) => {
                                     return(
                                         <Box key={ind} className={classes.boxWhite}>
                                             <Container maxWidth="lg">
-                                                <Typography className={classes.text} style={{color:color().secondary}}>{d.q}</Typography>
-                                                <Typography className={classes.content}>{d.a}</Typography>
+                                                <Typography className={classes.text}>{d.q}</Typography>
+                                                <Typography className={classes.content} >{d.a}</Typography>
+                                                <br/>
                                                 <Typography className={classes.from}>
                                                     Sumber : <a href={d.f}>{d.f}</a>
                                                 </Typography>
@@ -24,8 +25,9 @@ const FaqSection = ({datas,classes,color}) => {
                                     return(
                                         <Box key={ind} className={classes.boxPrimary}>
                                             <Container maxWidth="lg">
-                                                <Typography className={classes.text} style={{color:color().secondary}}>{d.q}</Typography>
+                                                <Typography className={classes.text} style={{color:"#fff"}}>{d.q}</Typography>
                                                 <Typography className={classes.content}>{d.a}</Typography>
+                                                <br/>
                                                 <Typography className={classes.from}>
                                                     Sumber : <a href={d.f}>{d.f}</a>
                                                 </Typography>
@@ -36,8 +38,9 @@ const FaqSection = ({datas,classes,color}) => {
                                     return(
                                         <Box key={ind} className={classes.boxSecondary}>
                                             <Container maxWidth="lg">
-                                                <Typography className={classes.text} style={{color:"#fff"}}>{d.q}</Typography>
+                                                <Typography className={classes.text}>{d.q}</Typography>
                                                 <Typography className={classes.content}>{d.a}</Typography>
+                                                <br/>
                                                 <Typography className={classes.from}>
                                                     Sumber : <a href={d.f}>{d.f}</a>
                                                 </Typography>

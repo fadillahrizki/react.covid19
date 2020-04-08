@@ -1,10 +1,10 @@
 
 import {makeStyles} from '@material-ui/core'
-
+// #FF8177
 export const color = () => ({
-    primary:"#FF8177",
-    secondary:"#5E5558",
-    red:"#F22D2D",
+    primary:"#F22D2D",
+    secondary:"#eee",
+    dark:"#5E5558"
 })
 
 const useStyles = makeStyles(theme=> {
@@ -107,7 +107,7 @@ const useStyles = makeStyles(theme=> {
         },
         textIndo:{
             fontSize:'50px',
-            color:color().red,
+            color:color().primary,
             margin:'auto',
             textAlign:'center',
             padding:'60px',
@@ -121,7 +121,7 @@ const useStyles = makeStyles(theme=> {
             color:color().primary
         },
         cardRed:{
-            background:color().red,
+            background:color().primary,
         },
         cardText:{
             fontSize:'50px',
@@ -142,7 +142,7 @@ const useStyles = makeStyles(theme=> {
         },
         cardTextRed:{
             fontSize:'50px',
-            color:color().red,
+            color:color().primary,
             fontFamily:'Agency FB',
             fontWeight:'bold',
             textAlign:'center',
@@ -153,7 +153,7 @@ const useStyles = makeStyles(theme=> {
         cardDummyRed:{
             fontSize:'30px',
             textAlign:'center',
-            color:color().red,
+            color:color().primary,
             [theme.breakpoints.down('sm')]:{
                 fontSize:'16px'
             }
@@ -187,17 +187,17 @@ const useStyles = makeStyles(theme=> {
             textAlign:'center'
         },
         boxWhite:{
-            color:color().secondary,
+            color:color().primary,
             paddingBottom:theme.spacing(5)
         },
         boxPrimary:{
             background:color().primary,
-            color:color().secondary,
+            color:"#fff",
             paddingBottom:theme.spacing(5)
         },
         boxSecondary:{
             background:color().secondary,
-            color:'#fff',
+            color:color().primary,
             paddingBottom:theme.spacing(5)
         },
         content:{
@@ -209,8 +209,7 @@ const useStyles = makeStyles(theme=> {
             }
         },
         from:{
-            fontWeight:"bold",
-            
+            fontWeight:"bold",  
         },
         avatar:{
             width:'300px !important',
@@ -282,7 +281,7 @@ const useStyles = makeStyles(theme=> {
         },
         lawan:{
             width:'100%',
-            background:color().red
+            background:color().primary
         },
         titleLawan:{
             fontSize:'30px',
